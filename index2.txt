@@ -1,0 +1,103 @@
+1、node是js语言编写的，运行在服务器端。
+2、内部采用Google的V8引擎（解析，编译快）
+3、基于事件驱动和异步I/O
+
+npm：包管理工具，可以搜素需要的模块。
+
+npm官网：https://www.npmjs.com/
+
+
+Stac
+segmentfault.com
+
+中国NB的node社区：
+https:cnode.org
+
+
+用户变量：单独给某个用户设置的变量（当前用户使用）；
+
+系统变量：给系统设置的变量，所有用户都可以访问。
+
+命令行运行某条命令时：同时找当前用户变量跟系统变量；
+
+github提交问题，让源码高亮显示：
+
+```javascript
+var a=1;
+var b=1;
+```
+
+学习markdown
+
+
+
+1、git:（本地仓库）
+
+工作区(本地目录)                暂存区                  历史区（git）
+
+   文件  -->        git add -->    文件   git commit-->   文件
+
+
+这三个区都在本地，也是分布式，不需要联网。
+
+
+2、github：（远程仓库）
+
+github与git添加关联：在git执行下面命令
+
+git remote add origin https://github.com/sicaifang/testGitProject.git （添加关联）
+git push -u origin master（push上去）
+
+
+
+
+3、本地跟远程仓库关联起来：
+
+git config --global user.name "你的github用户名"
+git config --global user.email "你的github邮箱"         
+
+注：不配置用户名和邮箱无法提交。
+
+在本地创建仓库：
+1、本地创建一个空目录。在此目录里，点击右键选择Git-Bash打开命令窗口。（mac没有git-bash，可以不用）
+2、输入git init，将此目录变成git可以管理的仓库。然后会出现一个.git文件夹。
+3、如果没有出现这个.git目录，默认是隐藏的，用命令ls -al就可以看见了。
+
+
+git工作流程：
+1、创建本地目录
+2、进入目录中
+3、Git-Bash，用git init命令初始化仓库
+4、新建文件到工作区
+5、git add 本地文件 				（到暂存区）
+6、git commit -m"对这次提交的注释"		（到历史区,git）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
