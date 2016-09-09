@@ -4,3 +4,4 @@ scf_add
 scf_hide
 hide
 finishfixbug
+byte
